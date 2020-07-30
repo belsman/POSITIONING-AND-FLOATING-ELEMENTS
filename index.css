@@ -181,13 +181,13 @@ img {
   margin: 75px;
 }
 
-.recommended-list #more-articles {
+.recommended-list #related-articles {
   border: 1px solid blue;
   margin-right: 0.5rem;
   width: 70%;
 }
 
-.recommended-list #more-articles img {
+.recommended-list #related-articles img {
   height: 180px;
 }
 
