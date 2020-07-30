@@ -1,113 +1,113 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  /* == Top headerv Navigation == */
-  .top-header nav {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .top-header .left-nav li {
-    margin: 0 0.75rem;
-  }
-  
-  .top-header .right-nav li {
-    margin: 0 0.35rem;
-  }
-  
-  .nyt-header-log {
-    width: 225px;
-  }
-  
-  .caterogry-label {
-    font-weight: 600;
-    font-size: 14px;
-  }
-  
-  .btn {
-    background-color: #fff;
-    border: none;
-    text-align: center;
-    border-radius: 3px;
-    font-size: 11px;
-    padding: 11px 12px 8px;
-  }
-  
-  .subscribe {
-    font-weight: 700;
-    background-color: rgb(86, 123, 149);
-    color: #fff;
-  }
-  
-  .account {
-    font-weight: 500;
-    font-size: 13px;
-    color: #222;
-  }
-  
-  /* === Article header === */
-  .article-header {
-    width: 72%;
-    margin: 0 auto;
-  }
-  
-  .article-header h1 {
-    width: 75%;
-    margin: 0 auto;
-    font-style: italic;
-    font-size: 2.25rem;
-    font-family: georgia,'times new roman',times,serif;
-    padding: 3rem 1rem 1.5rem;
-    line-height: 2.6rem;
-  }
-  
-  .article-header img {
-    max-width: 100%;
-  }
-  
-  .article-header .caption {
-    width: 75%;
-    line-height: 1.25rem;
-    padding-right: 5px;
-    padding-top: 0.5rem;
-  }
-  
-  /* === Misc Styles === */
-  .flex {
-    display: flex;
-  }
-  
-  .flex-space-between {
-    justify-content: space-between;
-  }
-  
-  .flex-align-center {
-   align-items: center;
-  }
-  
-  .fade-1 {
-    color: #666;
-  }
-  
-  .fade-2 {
-    color: #888;
-  }
-  
-  .font-size-2 {
-    font-size: 0.945rem;
-  }
-  
-  .font-size-3 {
-    font-size: 0.75rem;
-  }
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+/* == Top headerv Navigation == */
+.top-header nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-header .left-nav li {
+  margin: 0 0.75rem;
+}
+
+.top-header .right-nav li {
+  margin: 0 0.12rem;
+}
+
+.nyt-header-log {
+  width: 200px;
+}
+
+.caterogry-label {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 11px;
+  padding: 11px 12px 8px;
+}
+
+.subscribe {
+  font-weight: 700;
+  background-color: rgb(86, 123, 149);
+  color: #fff;
+}
+
+.account {
+  font-weight: 500;
+  font-size: 13px;
+  color: #222;
+}
+
+/* === Article header === */
+.article-header {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.article-header h1 {
+  width: 75%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 2.25rem;
+  font-family: georgia,'times new roman',times,serif;
+  padding: 3rem 1rem 1.5rem;
+  line-height: 2.6rem;
+}
+
+.article-header img {
+  max-width: 100%;
+}
+
+.article-header .caption {
+  width: 75%;
+  line-height: 1.25rem;
+  padding-right: 5px;
+  padding-top: 0.5rem;
+}
+
+/* === Misc Styles === */
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-align-center {
+ align-items: center;
+}
+
+.fade-1 {
+  color: #666;
+}
+
+.fade-2 {
+  color: #888;
+}
+
+.font-size-2 {
+  font-size: 0.945rem;
+}
+
+.font-size-3 {
+  font-size: 0.75rem;
+}
