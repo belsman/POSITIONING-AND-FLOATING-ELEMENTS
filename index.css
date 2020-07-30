@@ -256,6 +256,10 @@ img {
   padding: 0.25rem 0;
 }
 
+.bottom-nav-body .menu li:hover {
+  text-decoration: underline;
+}
+
 .bottom-nav .bottom-nav-body .menu span {
   margin-bottom: 0.35rem;
   color: #444;
