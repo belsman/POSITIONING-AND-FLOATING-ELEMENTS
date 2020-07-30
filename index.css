@@ -156,61 +156,17 @@ ul a {
   grid-template-columns: auto auto auto auto;
   font-size: 14px;
   line-height: 17px;
+  font-weight: 300;
+}
+
+.gallary {
+  border: 1px solid red;
 }
 
 .gallary-image {
-  background-image: url('./inflation-945.png');
-  background-repeat: no-repeat;
+  border: 1px solid green;
 }
 
-.gallary-image-1 {
-  background-position: 0 0;
-  width: 436px;
-  height: 271px;
-}
-
-.gallary-image-2 {
-  background-position: -472px 0;
-  width: 432px;
-  height: 267px;
-}
-
-.gallary-image-3 {
-  background-position: -942px 0;
-  width: 472px;
-  height: 271px;
-}
-
-.gallary-image-4 {
-  background-position: -1439px 0;
-  width: 451px;
-  height: 258px;
-}
-
-.gallary-image-5 {
-  background-position: 0 -615px;
-  width: 373px;
-  height: 204px;
-}
-
-.gallary-image-6 {
-  background-position: -566px -591px;
-  width: 252px;
-  height: 227px;
-}
-
-.gallary-image-7 {
-  background-position: -944px -562px;
-  width: 442px;
-  height: 276px;
-}
-
-.gallary-image-8 {
-  background-position: -1448px -614px;
-  width: 442px;
-  height: 276px;
-}
-/* === Misc Styles === */
 .flex {
   display: flex;
 }
