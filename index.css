@@ -37,7 +37,7 @@ ul a {
 }
 
 .nyt-header-log {
-  width: 200px;
+  width: 195px;
 }
 
 .caterogry-label {
@@ -92,6 +92,9 @@ ul a {
   padding-right: 5px;
   padding-top: 0.5rem;
 }
+
+/* == Article-body == */
+
 
 /* === Misc Styles === */
 .flex {
