@@ -261,6 +261,11 @@
     display: block;
   }
   
+  .bottom-nav .bottom-nav-body .subscription {
+    border-left: 1px solid #ddd;
+    padding-left: 1rem;
+  }
+  
   /* == Misc == */
   .flex {
     display: flex;
