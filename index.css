@@ -160,8 +160,8 @@ img {
 }
 
 .gallery-container {
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 0.75rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.75rem;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
@@ -172,6 +172,7 @@ img {
 }
 
 .gallary-image img {
+  object-fit: cover;
   height: 120px;
 }
 
