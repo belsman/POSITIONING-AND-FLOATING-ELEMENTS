@@ -182,7 +182,7 @@
   
   .recommended-list #related-articles {
     border-top: 1px solid #000;
-    margin-right: 0.5rem;
+    margin-right: 0.75rem;
     width: 70%;
   }
   
@@ -192,7 +192,7 @@
   
   .recommended-list #most-popular {
     border-top: 1px solid #000;
-    margin-left: 0.5rem;
+    margin-left: 0.75rem;
     width: 30%;
   }
   
