@@ -245,10 +245,14 @@
     width: 100%;
   }
   
-  .bottom-nav .menu {
-    border: 1px solid green;
+  .bottom-nav .botton-nav-body .menu {
     float: left;
     width: 16.666%;
+    font-size: 0.85rem;
+  }
+  
+  .bottom-nav .botton-nav-body .menu li {
+    padding: 0.25rem 0;
   }
   
   /* == Misc == */
