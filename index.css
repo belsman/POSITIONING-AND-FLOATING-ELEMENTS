@@ -291,6 +291,10 @@ img {
   font-size: 0.75rem;
 }
 
+.font-size-4 {
+  font-size: 11px;
+}
+
 .header-3 {
   font-weight: 600;
   padding-bottom: 0.3rem;
@@ -299,6 +303,10 @@ img {
 
 .header-4 {
   padding: 1rem 0;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .link:hover {
@@ -327,4 +335,8 @@ img {
   clear: both;
   display: table;
   content: "";
+}
+
+.lightblue {
+  color: rgb(150, 150, 255);
 }
