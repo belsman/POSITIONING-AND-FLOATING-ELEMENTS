@@ -32,6 +32,11 @@
     width: 225px;
   }
   
+  .caterogry-label {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
   /* === Article header === */
   .article-header {
     width: 72%;
