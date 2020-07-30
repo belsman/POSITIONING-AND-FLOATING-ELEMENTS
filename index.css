@@ -8,8 +8,18 @@ ul {
   padding: 0;
 }
 
+/* == Top headerv Navigation == */
 .top-header nav {
   border: 1px solid red;
+}
+
+.top-header .left-nav li {
+  margin: 0 0.75rem;
+}
+
+.top-header .right-nav li {
+  border: 1px solid red;
+  margin: 0 0.35rem;
 }
 
 .nyt-header-log {
@@ -50,6 +60,10 @@ ul {
 
 .flex-space-between {
   justify-content: space-between;
+}
+
+.flex-align-center {
+ align-items: center;
 }
 
 .fade-1 {
