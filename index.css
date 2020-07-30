@@ -167,6 +167,12 @@ ul a {
   border: 1px solid green;
 }
 
+.gallary-image img {
+  max-width: 100%;
+  height: 150px;
+}
+
+/* == Misc == */
 .flex {
   display: flex;
 }
