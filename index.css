@@ -101,8 +101,9 @@
   /* == Article-body == */
   .article-body {
     border: 1px solid red;
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
+    padding-right: 25px;
   }
   
   .article-body-2 {
