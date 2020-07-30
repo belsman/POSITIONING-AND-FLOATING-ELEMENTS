@@ -235,23 +235,23 @@
     margin: 0 75px;
   }
   
-  .bottom-nav .botton-nav-header {
+  .bottom-nav .bottom-nav-header {
     border-top: 1px solid #ddd;
     margin-top: 0.05rem;
     padding: 0.3rem 0;
   }
   
-  .bottom-nav .botton-nav-body {
+  .bottom-nav .bottom-nav-body {
     width: 100%;
   }
   
-  .bottom-nav .botton-nav-body .menu {
+  .bottom-nav .bottom-nav-body .menu {
     float: left;
     width: 16.666%;
     font-size: 0.85rem;
   }
   
-  .bottom-nav .botton-nav-body .menu li {
+  .bottom-nav .bottom-nav-body .menu li {
     padding: 0.25rem 0;
   }
   
