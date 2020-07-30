@@ -238,6 +238,18 @@ img {
 .bottom-nav .botton-nav-header {
   border: 1px solid red;
 }
+
+.bottom-nav .botton-nav-body {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.bottom-nav .menu {
+  border: 1px solid green;
+  float: left;
+  width: 16.666%;
+}
+
 /* == Misc == */
 .flex {
   display: flex;
@@ -257,10 +269,6 @@ img {
 
 .grid {
   display: grid;
-}
-
-.float-left {
-  float: left;
 }
 
 .fade-0 {
@@ -313,4 +321,10 @@ img {
   display: inline-block;
   border-top: 1px solid #000;
   width: 3.5rem;
+}
+
+.clear-fix {
+  clear: both;
+  display: table;
+  content: "";
 }
