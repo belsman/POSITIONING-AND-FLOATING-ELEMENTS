@@ -3,8 +3,14 @@
 }
 
 body {
+  font-family: georgia,'times new roman',times,serif;
   margin: 0;
   padding: 0;
+}
+
+article p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 ul {
@@ -77,7 +83,6 @@ ul a {
   margin: 0 auto;
   font-style: italic;
   font-size: 2.25rem;
-  font-family: georgia,'times new roman',times,serif;
   padding: 3rem 1rem 1.5rem;
   line-height: 2.6rem;
 }
@@ -95,13 +100,91 @@ ul a {
 
 /* == Article-body == */
 .article-body {
-  border: 1px solid red;
-  width: 50%;
+  width: 45%;
   margin: 0 auto;
+  padding-right: 25px;
 }
 
 .article-media img {
   max-width: 100%;
+}
+
+.article-body-2 {
+  width: 72.5%;
+  margin-left: auto;
+}
+
+.article-body-2 div {
+  flex-basis: 70%;
+}
+
+.article-body-2 div.main-article {
+  margin-right: 40px;
+  padding-right: 30px;
+}
+
+.article-body-2 .editors-pick {
+  margin-right: 2.5rem;
+  padding: 0 1rem;
+  flex-basis: 30%;
+  font-size: 14px;
+}
+
+.article-body-2 .thumb-image {
+  flex-basis: 80px;
+}
+
+.article-body-2 .thumb-image img {
+  max-width: 100%;
+}
+
+.editors-pick .article-list .article-title {
+  padding: 0 0.5rem;
+  line-height: 17px;
+  padding-bottom: 0.3rem;
+}
+
+/* === Theory of Inflation Id === Styles*/
+#theory-of-inflation {
+  border: 1px solid green;
+  margin: auto;
+  width: 72%;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.gallary-image {
+  background-image: url('./inflation-945.png');
+  background-repeat: no-repeat;
+}
+
+.gallary-image-1 {
+  background-position: 0 0;
+  width: 436px;
+  height: 271px;
+}
+
+.gallary-image-2 {
+  background-position: -472px 0;
+  width: 432px;
+  height: 267px;
+}
+
+.gallary-image-3 {
+  background-position: -942px 0;
+  width: 472px;
+  height: 271px;
+}
+
+.gallary-image-4 {
+  background-position: -1439px 0;
+  width: 451px;
+  height: 258px;
 }
 
 /* === Misc Styles === */
@@ -115,6 +198,14 @@ ul a {
 
 .flex-align-center {
  align-items: center;
+}
+
+.flex-self-align {
+  align-self: center;
+}
+
+.fade-0 {
+  color: #333;
 }
 
 .fade-1 {
@@ -131,4 +222,22 @@ ul a {
 
 .font-size-3 {
   font-size: 0.75rem;
+}
+
+.header-3 {
+  font-weight: 600;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.underline {
+  border-bottom: 1px solid #ccc;
+}
+
+.font-sans {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+  font-family: georgia,'times new roman',times,serif;
 }
