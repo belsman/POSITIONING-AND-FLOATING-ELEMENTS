@@ -223,6 +223,12 @@
     color: #444;
   }
   
+  .recommended-list #most-popular li {
+    border-top: 1px solid #ccc;
+    padding: 1rem 0;
+    font-size: 1.15rem;
+  }
+  
   /* == Misc == */
   .flex {
     display: flex;
