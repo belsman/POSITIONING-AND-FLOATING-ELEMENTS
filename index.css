@@ -187,6 +187,29 @@ ul a {
   height: 258px;
 }
 
+.gallary-image-5 {
+  background-position: 0 -615px;
+  width: 373px;
+  height: 204px;
+}
+
+.gallary-image-6 {
+  background-position: -566px -591px;
+  width: 252px;
+  height: 227px;
+}
+
+.gallary-image-7 {
+  background-position: -944px -562px;
+  width: 442px;
+  height: 276px;
+}
+
+.gallary-image-8 {
+  background-position: -1448px -614px;
+  width: 442px;
+  height: 276px;
+}
 /* === Misc Styles === */
 .flex {
   display: flex;
