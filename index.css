@@ -269,15 +269,24 @@ img {
 
 .bottom-nav-body .subscription .subscribe-list-1 {
   font-weight: 700;
+  padding: 0.8rem 0;
 }
 
 .bottom-nav-body .subscription .subscribe-list-2,
 .bottom-nav-body .subscription .subscribe-list-3 {
-  padding: 0.25rem 0;
+  padding: 0.3rem 0;
 }
 
 .bottom-nav-body .subscription .subscribe-list-3 {
   margin-top: 0.35rem;
+}
+
+.bottom-nav-body .subscription .sub1-icons {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 /* == Misc == */
