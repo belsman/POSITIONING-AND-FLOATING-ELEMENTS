@@ -1,1 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
 
+  .top-header {
+    border: 1px solid red;
+  }
+
+  /* === Article header === */
+  .article-header {
+    border: 1px solid green;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .article-header h1 {
+    width: 75%;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 34px;
+    font-family: georgia,'times new roman',times,serif;
+    padding: 3rem 1rem 1.5rem;
+  }
+
+  .article-header img {
+    max-width: 100%;
+  }
