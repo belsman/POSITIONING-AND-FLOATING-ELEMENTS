@@ -2,13 +2,22 @@
   box-sizing: border-box;
 }
 
-.top-header {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.top-header nav {
   border: 1px solid red;
+}
+
+.nyt-header-log {
+  width: 225px;
 }
 
 /* === Article header === */
 .article-header {
-  border: 1px solid green;
   width: 72%;
   margin: 0 auto;
 }
@@ -17,7 +26,7 @@
   width: 75%;
   margin: 0 auto;
   font-style: italic;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-family: georgia,'times new roman',times,serif;
   padding: 3rem 1rem 1.5rem;
   line-height: 2.6rem;
@@ -35,6 +44,14 @@
 }
 
 /* === Misc Styles === */
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
 .fade-1 {
   color: #666;
 }
