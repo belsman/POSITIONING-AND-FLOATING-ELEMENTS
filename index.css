@@ -154,13 +154,16 @@ ul a {
 
 /* === Theory of Inflation Id === Styles*/
 #theory-of-inflation {
-  border: 1px solid green;
   margin: auto;
   width: 72%;
 }
 
 #theory-of-inflation h3 {
   margin-bottom: 0.25rem;
+}
+
+#theory-of-inflation footer {
+  margin-top: 2rem;
 }
 
 .gallery-container {
@@ -234,4 +237,10 @@ ul a {
 
 .font-serif {
   font-family: georgia,'times new roman',times,serif;
+}
+
+.upper-score {
+  display: inline-block;
+  border-top: 1px solid #000;
+  width: 3.5rem;
 }
