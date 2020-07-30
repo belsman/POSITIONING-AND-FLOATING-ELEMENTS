@@ -1,27 +1,52 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  .top-header {
-    border: 1px solid red;
-  }
+.top-header {
+  border: 1px solid red;
+}
 
-  /* === Article header === */
-  .article-header {
-    border: 1px solid green;
-    width: 75%;
-    margin: 0 auto;
-  }
+/* === Article header === */
+.article-header {
+  border: 1px solid green;
+  width: 72%;
+  margin: 0 auto;
+}
 
-  .article-header h1 {
-    width: 75%;
-    margin: 0 auto;
-    font-style: italic;
-    font-size: 34px;
-    font-family: georgia,'times new roman',times,serif;
-    padding: 3rem 1rem 1.5rem;
-  }
+.article-header h1 {
+  width: 75%;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: georgia,'times new roman',times,serif;
+  padding: 3rem 1rem 1.5rem;
+  line-height: 2.6rem;
+}
 
-  .article-header img {
-    max-width: 100%;
-  }
+.article-header img {
+  max-width: 100%;
+}
+
+.article-header .caption {
+  width: 75%;
+  line-height: 1.25rem;
+  padding-right: 5px;
+  padding-top: 0.5rem;
+}
+
+/* === Misc Styles === */
+.fade-1 {
+  color: #666;
+}
+
+.fade-2 {
+  color: #888;
+}
+
+.font-size-2 {
+  font-size: 0.945rem;
+}
+
+.font-size-3 {
+  font-size: 0.75rem;
+}
