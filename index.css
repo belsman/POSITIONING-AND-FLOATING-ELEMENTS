@@ -177,12 +177,11 @@ img {
 
 /* == Recommended list == */
 .recommended-list {
-  border: 1px solid red;
   margin: 75px;
 }
 
 .recommended-list #related-articles {
-  border: 1px solid blue;
+  border-top: 1px solid #000;
   margin-right: 0.5rem;
   width: 70%;
 }
@@ -192,7 +191,7 @@ img {
 }
 
 .recommended-list #most-popular {
-  border: 1px solid green;
+  border-top: 1px solid #000;
   margin-left: 0.5rem;
   width: 30%;
 }
@@ -201,6 +200,11 @@ img {
   grid-template-columns: auto auto auto;
   grid-column-gap: 0.5rem;
   grid-row-gap: 1rem;
+}
+
+.recommended-list .suggested-article {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
 }
 
 .recommended-list .article-tile .description span {
@@ -268,6 +272,14 @@ img {
   font-weight: 600;
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
+}
+
+.header-4 {
+  padding: 1rem 0;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .underline {
