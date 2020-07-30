@@ -34,7 +34,9 @@
   
   img {
     max-width: 100%;
+    display: block;
   }
+  
   /* == Top headerv Navigation == */
   .top-header {
     border-bottom: 1px solid #ddd;
@@ -198,10 +200,23 @@
   .recommended-list .article-grid {
     grid-template-columns: auto auto auto;
     grid-column-gap: 0.5rem;
+    grid-row-gap: 1rem;
   }
   
-  .recommended-list .article-tile {
-    border: 1px solid red;
+  .recommended-list .article-tile .description span {
+    display: block;
+    padding: 0.3rem 0 0 0;
+  }
+  
+  .recommended-list .article-tile .description span.author {
+    font-size: 0.65rem;
+    color: #777;
+    text-align: right;
+  }
+  
+  .recommended-list .article-tile .description span.published {
+    font-size: 0.8rem;
+    color: #444;
   }
   
   /* == Misc == */
