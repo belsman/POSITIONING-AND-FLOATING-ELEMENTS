@@ -195,8 +195,7 @@
     width: 30%;
   }
   
-  .recommended-list .article-grids-1,
-  .recommended-list .article-grids-2 {
+  .recommended-list .article-grid {
     grid-template-columns: auto auto auto;
     grid-column-gap: 0.5rem;
   }
