@@ -191,12 +191,14 @@ ul a {
 
 .recommended-list #more-articles {
   border: 1px solid blue;
-  width: 85%;
+  margin-right: 0.5rem;
+  width: 70%;
 }
 
 .recommended-list #most-popular {
   border: 1px solid green;
-  width: 15;
+  margin-left: 0.5rem;
+  width: 30%;
 }
 
 /* == Misc == */
