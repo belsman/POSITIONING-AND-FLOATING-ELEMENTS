@@ -229,6 +229,15 @@ img {
   font-size: 1.15rem;
 }
 
+/*=== Bottom-nav == */
+.bottom-nav {
+  border: 1px solid red;
+  margin: 0 75px;
+}
+
+.bottom-nav .botton-nav-header {
+  border: 1px solid red;
+}
 /* == Misc == */
 .flex {
   display: flex;
