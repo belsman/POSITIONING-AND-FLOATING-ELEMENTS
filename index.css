@@ -145,6 +145,18 @@
   }
   
   /* === Theory of Inflation Id === Styles*/
+  #theory-of-inflation {
+    border: 1px solid green;
+    margin: auto;
+    width: 72%;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 14px;
+    line-height: 17px;
+  }
   
   /* === Misc Styles === */
   .flex {
