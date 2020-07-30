@@ -100,7 +100,6 @@
   
   /* == Article-body == */
   .article-body {
-    border: 1px solid red;
     width: 45%;
     margin: 0 auto;
     padding-right: 25px;
@@ -111,13 +110,17 @@
   }
   
   .article-body-2 {
-    border: 1px solid blue;
     width: 72.5%;
     margin-left: auto;
   }
   
   .article-body-2 div {
     flex-basis: 70%;
+  }
+  
+  .article-body-2 div.main-article {
+    margin-right: 40px;
+    padding-right: 30px;
   }
   
   .article-body-2 .editors-pick {
@@ -140,6 +143,8 @@
     line-height: 17px;
     padding-bottom: 0.3rem;
   }
+  
+  /* === Theory of Inflation Id === Styles*/
   
   /* === Misc Styles === */
   .flex {
