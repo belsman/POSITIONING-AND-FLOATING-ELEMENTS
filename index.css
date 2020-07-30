@@ -8,12 +8,6 @@
     padding: 0;
   }
   
-  button {
-    border: none;
-    text-align: center;
-    border-radius: 3px;
-  }
-  
   ul a {
     text-decoration: none;
     color: black;
@@ -41,13 +35,25 @@
     font-size: 14px;
   }
   
-  .subscribe {
+  .btn {
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
     font-size: 11px;
+    padding: 11px 12px 8px;
+  }
+  
+  .subscribe {
     font-weight: 700;
     background-color: rgb(86, 123, 149);
     color: #fff;
-    line-height: 11px;
-    padding: 0.9rem 1rem 0.5rem;
+  }
+  
+  .account {
+    font-weight: 500;
+    font-size: 13px;
+    color: #222;
   }
   
   /* === Article header === */
