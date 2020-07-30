@@ -269,16 +269,20 @@ img {
 
 .bottom-nav-body .subscription .subscribe-list-1 {
   font-weight: 700;
-  padding: 0.8rem 0;
+  margin-bottom: 0.75rem;
 }
 
-.bottom-nav-body .subscription .subscribe-list-2,
-.bottom-nav-body .subscription .subscribe-list-3 {
-  padding: 0.3rem 0;
+.bottom-nav-body .subscription .subscribe-list-1 li {
+  padding-bottom: 0.65rem;
+}
+
+.bottom-nav-body .subscription .subscribe-list-2 {
+  padding-bottom: 0.3rem;
 }
 
 .bottom-nav-body .subscription .subscribe-list-3 {
   margin-top: 0.35rem;
+  padding-top: 0.5rem;
 }
 
 .bottom-nav-body .subscription .sub1-icons {
