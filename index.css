@@ -242,14 +242,11 @@ img {
   margin-bottom: 1rem;
   padding: 0.3rem 0;
 }
-
 .bottom-nav .bottom-nav-body {
-  width: 100%;
+  padding-bottom: 0.5rem;
 }
 
 .bottom-nav .bottom-nav-body .menu {
-  float: left;
-  width: 16.666%;
   font-size: 0.85rem;
 }
 
