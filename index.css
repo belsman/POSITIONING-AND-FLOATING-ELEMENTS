@@ -106,13 +106,28 @@
     padding-right: 25px;
   }
   
-  .article-body-2 {
-    border: 1px solid blue;
-  }
-  
   .article-media img {
     max-width: 100%;
   }
+  
+  .article-body-2 {
+    border: 1px solid blue;
+    width: 72.5%;
+    margin-left: auto;
+  }
+  
+  .article-body-2 div {
+    flex-basis: 70%;
+  }
+  
+  .article-body-2 aside {
+    flex-basis: 30%;
+  }
+  
+  .article-body-2 .thumb-image img {
+    width: 80px;
+  }
+  
   
   /* === Misc Styles === */
   .flex {
