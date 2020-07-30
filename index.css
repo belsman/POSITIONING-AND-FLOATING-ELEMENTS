@@ -191,7 +191,6 @@ ul a {
 
 .recommended-list #more-articles {
   border: 1px solid blue;
-  grid-template-columns: auto auto auto;
   margin-right: 0.5rem;
   width: 70%;
 }
@@ -200,6 +199,14 @@ ul a {
   border: 1px solid green;
   margin-left: 0.5rem;
   width: 30%;
+}
+
+.recommended-list .article-grids-1 {
+  grid-template-columns: auto auto auto;
+}
+
+.recommended-list .article-grids-2 {
+  grid-template-columns: auto auto auto;
 }
 
 /* == Misc == */
