@@ -118,9 +118,17 @@ img {
   padding-right: 25px;
 }
 
+.article-metadata {
+  margin-top: 1rem;       
+}
+
 .article-metadata li {
   display: block;
   margin-left: 1rem;
+}
+
+.article-metadata .article-metadata-row2 {
+  margin: 1rem 0;
 }
 
 .article-body-2 {
