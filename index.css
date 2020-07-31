@@ -162,6 +162,23 @@ img {
   padding-bottom: 0.3rem;
 }
 
+#thanks-subscribe {
+  text-align: center;
+}
+
+#thanks-subscribe .rule-72 {
+  width: 72px;
+  height: 1px;
+  border-top: 1px solid #bbb;
+  margin: 1rem auto;
+}
+
+#thanks-subscribe a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 /* === Theory of Inflation Id === Styles*/
 #theory-of-inflation {
   margin: auto;
