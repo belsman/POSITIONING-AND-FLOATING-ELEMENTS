@@ -412,3 +412,9 @@ img {
 .lightblue {
   color: rgb(150, 150, 255);
 }
+
+.social button {
+  border-radius: 50%;
+  border: none;
+  padding: 4px 7px;
+}
