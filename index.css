@@ -183,6 +183,10 @@ img {
   color: inherit;
 }
 
+#read-comments {
+  flex-basis: 50%;
+}
+
 /* === Theory of Inflation Id === Styles*/
 #theory-of-inflation {
   margin: auto;
