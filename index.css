@@ -225,8 +225,9 @@ img {
 
 .recommended-list #related-articles {
   border-top: 1px solid #000;
-  margin-right: 0.75rem;
-  width: 70%;
+  margin-right: 1%;
+  width: 69%;
+  float: left;
 }
 
 .recommended-list #related-articles img {
@@ -235,8 +236,9 @@ img {
 
 .recommended-list #most-popular {
   border-top: 1px solid #000;
-  margin-left: 0.75rem;
-  width: 30%;
+  margin-left: 1%;
+  width: 29%;
+  float: left;
 }
 
 .recommended-list .article-grid {
