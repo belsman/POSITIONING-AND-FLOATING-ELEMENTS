@@ -44,7 +44,6 @@ img {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  z-index: 1;
 }
 
 .top-header nav {
@@ -92,7 +91,8 @@ img {
 /* === Article header === */
 .article-header {
   width: 72%;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .article-header h1 {
@@ -100,8 +100,8 @@ img {
   margin: 0 auto;
   font-style: italic;
   font-size: 2.25rem;
-  padding: 3rem 1rem 1.5rem;
-  line-height: 2.6rem;
+  padding: 7rem 1rem 1.5rem;
+  line-height: 3rem;
 }
 
 .article-header .caption {
