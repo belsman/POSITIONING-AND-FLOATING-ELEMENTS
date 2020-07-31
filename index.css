@@ -122,11 +122,6 @@ img {
   margin-top: 1rem;       
 }
 
-.article-metadata li {
-  display: block;
-  margin-left: 1rem;
-}
-
 .article-metadata .article-metadata-row2 {
   margin: 1rem 0;
 }
@@ -177,6 +172,15 @@ img {
   font-weight: 600;
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+.article-footer p {
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}
+
+.article-footer a {
+  color: inherit;
 }
 
 /* === Theory of Inflation Id === Styles*/
@@ -441,6 +445,11 @@ img {
 
 .lightblue {
   color: rgb(150, 150, 255);
+}
+
+.social li {
+  display: block;
+  margin-left: 1rem;
 }
 
 .social button {
