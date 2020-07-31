@@ -118,6 +118,11 @@ img {
   padding-right: 25px;
 }
 
+.article-metadata li {
+  display: block;
+  margin-left: 1rem;
+}
+
 .article-body-2 {
   width: 72.5%;
   margin-left: auto;
