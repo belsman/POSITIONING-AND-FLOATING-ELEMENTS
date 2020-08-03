@@ -84,12 +84,14 @@ img {
 }
 
 .btn {
+  display: block;
   background-color: #fff;
   border: none;
   text-align: center;
   border-radius: 3px;
   font-size: 11px;
   padding: 11px 12px 8px;
+  margin: 0;
 }
 
 .subscribe {
@@ -468,6 +470,15 @@ img {
   border-radius: 50%;
   border: none;
   padding: 4px 7px;
+}
+
+.nav-icon {
+  padding: 0;
+  padding: 0.3rem;
+}
+
+.nav-icon i {
+  font-size: 0.9rem;
 }
 
 #video-media {
