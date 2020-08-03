@@ -2,9 +2,9 @@
 
 # A clone of the New York Times article page
 
-![Mint sign-up page](./images/app_screenshot.png)
+![New York Times article page](./images/app_screenshot.png)
 
-![Mint sign-up page](./images/app_screenshot2.png)
+![New York Times article page](./images/app_screenshot2.png)
 
 This project is based on The Odin Project and Microverse peer programming collaborative coding. It involves cloning a page that matches the look of a [certain New York times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
