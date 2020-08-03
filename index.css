@@ -32,6 +32,7 @@ ul {
 }
 
 ul a {
+  cursor: pointer;
   text-decoration: none;
   color: black;
 }
@@ -79,6 +80,7 @@ img {
 }
 
 .caterogry-label {
+  vertical-align: middle;
   font-weight: 600;
   font-size: 14px;
 }
@@ -188,6 +190,11 @@ img {
   color: inherit;
 }
 
+.recommended-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .page-footer a:hover {
   text-decoration: underline;
 }
@@ -270,11 +277,6 @@ img {
   margin-left: 1%;
   width: 29%;
   float: left;
-}
-
-.recommended-list a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .article-grid {
