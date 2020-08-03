@@ -161,6 +161,10 @@ img {
   font-size: 14px;
 }
 
+.editors-pick .article {
+  margin: 1rem 0;
+}
+
 .editors-pick .thumb-image {
   flex-basis: 80px;
 }
