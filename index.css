@@ -367,7 +367,7 @@ img {
 .page-footer {
   font-size: 11px;
   text-align: center;
-  padding: 0 75px;
+  padding: 0 75px 45px;
 }
 
 .page-footer nav {
@@ -479,6 +479,33 @@ img {
 
 .nav-icon i {
   font-size: 0.9rem;
+}
+
+.fix-footer {
+  border-top: 1px solid #333;
+  background-color: #fff;
+  grid-template-columns: 15% 70% 15%;
+  position: fixed;
+  padding: 1rem 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.fix-footer-text {
+  text-align: center;
+}
+
+.fix-footer-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+
+button.expand-icon {
+  font-size: 1rem;
+  padding: 0;
+  margin-left: 1rem;
 }
 
 #video-media {
