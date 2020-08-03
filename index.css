@@ -272,6 +272,11 @@ img {
   float: left;
 }
 
+.recommended-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .article-grid {
   grid-template-columns: auto auto auto;
   grid-column-gap: 0.5rem;
