@@ -18,7 +18,7 @@ This is a collaborative project carried out by Bello Babakolo and Oluwaseun Iyad
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/belsman/POSITIONING-AND-FLOATING-ELEMENTS/clone-NYT-page/index.html)
+[Live Demo Link](https://raw.githack.com/belsman/POSITIONING-AND-FLOATING-ELEMENTS/master/index.html)
 
 
 ## Getting Started
